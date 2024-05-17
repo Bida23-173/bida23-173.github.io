@@ -1,0 +1,8 @@
+.navbar {
+       
+       margin: 15px;
+       padding-left: 40px;
+       display: inline-flex;
+       list-style: none;
+       text-align: center;
+    }

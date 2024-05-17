@@ -1,0 +1,40 @@
+
+    
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+     
+    .sidebar {
+        height: 100%;
+        width: 50px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000000;
+        padding-top: 60px;
+       flex-direction: column;
+       align-items: center;
+     
+    }
+    
+    
+
+    .sidebar a {
+        padding: 40px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        margin-left: -60px;
+    }
+    
+    .sidebar a:hover {
+        background-color: #555;
+    }
+    
+    .content {
+        margin-left: 100px;
+        padding: 20px;
+    }
+
